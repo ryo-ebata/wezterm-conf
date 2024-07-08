@@ -46,7 +46,6 @@ config.keys = {
     },
     -- ⌘ Ctrl ,で下方向にペイン分割
     {
-    {
         key = ",",
         mods = "CMD|CTRL",
         action = wezterm.action { SplitVertical = { domain = "CurrentPaneDomain" } },
@@ -104,8 +103,7 @@ config.keys = {
         key = 'l',
         mods = 'CMD|CTRL|SHIFT',
         action = wezterm.action.AdjustPaneSize { 'Right', 2 },
-    },
-
+    }
 }
 
 -- マウス操作の挙動設定
